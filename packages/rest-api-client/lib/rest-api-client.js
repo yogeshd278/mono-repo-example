@@ -3,5 +3,5 @@
 module.exports = restApiClient;
 
 function restApiClient() {
-    return "My first lerna project"
+    return "My first lerna project";
 }
