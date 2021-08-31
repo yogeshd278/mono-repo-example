@@ -21,7 +21,8 @@
     "url": "git+https://github.com/yogeshd278/mono-repo-example.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "start": "node lib/rest-api-client.js"
   },
   "bugs": {
     "url": "https://github.com/yogeshd278/mono-repo-example/issues"
@@ -29,5 +30,5 @@
   "dependencies": {
     "form-data": "^4.0.0"
   },
-  "gitHead": "61dafeac08abb90a4fa8bdf42596f37deea015c5"
+  "gitHead": "36d947cdb9743f626d7dd87796016b4abc91c2e4"
 }

@@ -17,7 +17,8 @@
     "access": "public"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "start": "node lib/my-first-api.js"
   },
   "dependencies": {
     "form-data": "^4.0.0"
@@ -26,5 +27,6 @@
     "eslint": "^7.32.0",
     "prettier": "^2.3.2",
     "typescript": "^4.4.2"
-  }
+  },
+  "gitHead": "36d947cdb9743f626d7dd87796016b4abc91c2e4"
 }
