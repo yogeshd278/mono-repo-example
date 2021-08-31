@@ -3,5 +3,5 @@
 module.exports = reTestPackage;
 
 function reTestPackage() {
-    // TODO
+    return "This is my new package"
 }
