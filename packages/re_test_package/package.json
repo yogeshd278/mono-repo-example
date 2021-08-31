@@ -1,0 +1,37 @@
+{
+  "name": "@yogesh/re_test_package",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Yogesh Dubey <yogesh.dubey@engageasap.com>",
+  "homepage": "https://github.com/yogeshd278/mono-repo-example#readme",
+  "license": "MIT",
+  "main": "lib/re_test_package.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogeshd278/mono-repo-example.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/yogeshd278/mono-repo-example/issues"
+  },
+  "dependencies": {
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.4.2"
+  }
+}
