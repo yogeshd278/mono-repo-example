@@ -5,7 +5,12 @@ import reTestPackage from "@yogesh/re_test_package";
 
 function App() {
   return (
-    reTestPackage()
+    <>
+      {
+        reTestPackage(),
+        myFirstApi('string', 1)
+      }
+    </>
   )
 }
 
